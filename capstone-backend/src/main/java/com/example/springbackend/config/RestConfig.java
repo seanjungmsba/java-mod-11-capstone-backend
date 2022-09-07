@@ -19,12 +19,12 @@ import java.util.List;
 import java.util.Set;
 
 @Configuration
-public class MyDataRestConfig implements RepositoryRestConfigurer {
+public class RestConfig implements RepositoryRestConfigurer {
 
     private final EntityManager entityManager;
 
     @Autowired
-    public MyDataRestConfig(EntityManager theEntityManager) {
+    public RestConfig(EntityManager theEntityManager) {
         entityManager = theEntityManager;
     }
 
