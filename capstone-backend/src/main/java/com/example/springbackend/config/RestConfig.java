@@ -1,10 +1,7 @@
 package com.example.springbackend.config;
 
 
-import com.example.springbackend.model.Country;
-import com.example.springbackend.model.Product;
-import com.example.springbackend.model.ProductCategory;
-import com.example.springbackend.model.State;
+import com.example.springbackend.model.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
@@ -44,6 +41,7 @@ public class RestConfig implements RepositoryRestConfigurer {
         disableHttpMethods(ProductCategory.class, config, theUnsupportedActions);
         disableHttpMethods(Country.class, config, theUnsupportedActions);
         disableHttpMethods(State.class, config, theUnsupportedActions);
+        disableHttpMethods(Order.class, config, theUnsupportedActions);
 
         // call an internal helper method
         exposeIds(config);
