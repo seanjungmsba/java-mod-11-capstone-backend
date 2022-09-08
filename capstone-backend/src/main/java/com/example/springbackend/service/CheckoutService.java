@@ -51,7 +51,7 @@ public class CheckoutService implements CheckoutInterface {
         if (customerFromDatabase != null ) {
             customer = customerFromDatabase;
         }
-        
+
         customer.add(order);
 
         // save to the database

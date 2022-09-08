@@ -5,14 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="032a52cd-0325-43e2-8572-d4975536caec" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/config/AppConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/repository/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/config/RestConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/config/RestConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/controller/CheckoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/controller/CheckoutController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/repository/CountryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/repository/CountryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/repository/ProductCategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/repository/ProductCategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/repository/StateRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/repository/StateRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/service/CheckoutService.java" beforeDir="false" afterPath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/service/CheckoutService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capstone-backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/capstone-backend/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
