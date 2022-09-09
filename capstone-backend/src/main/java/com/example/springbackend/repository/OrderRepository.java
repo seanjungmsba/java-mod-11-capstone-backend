@@ -1,5 +1,6 @@
 package com.example.springbackend.repository;
 
+import com.example.springbackend.model.Customer;
 import com.example.springbackend.model.Order;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -15,4 +16,5 @@ public interface OrderRepository extends JpaRepository<Order, Long> {
     // WHERE customer.email = :email
     // ORDER BY orders.date_created DESC;`
     Page<Order> findByCustomerEmailOrderByDateCreatedDesc(@Param("email") String email, Pageable pageable);
+    void deleteByCustomerEmail(@Param("email") String email);
 }
