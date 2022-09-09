@@ -1,7 +1,7 @@
 package com.example.springbackend.controller;
 
-import com.example.springbackend.dto.Purchase;
-import com.example.springbackend.dto.PurchaseResponse;
+import com.example.springbackend.dto.CreatePurchaseDTO;
+import com.example.springbackend.dto.GetPurchaseResponseDTO;
 import com.example.springbackend.service.CheckoutInterface;
 import org.springframework.web.bind.annotation.*;
 
@@ -16,11 +16,11 @@ public class CheckoutController {
     }
 
     @PostMapping("/purchase")
-    public PurchaseResponse placeOrder(@RequestBody Purchase purchase) {
+    public GetPurchaseResponseDTO placeOrder(@RequestBody CreatePurchaseDTO createPurchaseDTO) {
 
-        PurchaseResponse purchaseResponse = checkoutInterface.placeOrder(purchase);
+        GetPurchaseResponseDTO getPurchaseResponseDTO = checkoutInterface.placeOrder(createPurchaseDTO);
 
-        return purchaseResponse;
+        return getPurchaseResponseDTO;
     }
 
 }
