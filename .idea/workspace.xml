@@ -5,7 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="032a52cd-0325-43e2-8572-d4975536caec" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/dto/CreateCustomerDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/dto/GetCustomerResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/service/CustomerInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/service/CustomerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capstone-backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/capstone-backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/controller/CheckoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/controller/CheckoutController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/dto/Purchase.java" beforeDir="false" afterPath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/dto/CreatePurchaseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/dto/PurchaseResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/dto/GetPurchaseResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/repository/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/service/CheckoutInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/service/CheckoutInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/service/CheckoutService.java" beforeDir="false" afterPath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/service/CheckoutService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +29,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -56,14 +70,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/seanj/Documents/GitHub/Flatiron_Bootcamp_Summer_2022/java-mod-11-capstone-backend/capstone-backend/src/main/java/com/example/capstonebackend&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/seanj/Documents/GitHub/Flatiron_Bootcamp_Summer_2022/java-mod-7-assessment"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="com.example.springbackend.SpringBackendApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.springbackend.SpringBackendApplication" />
