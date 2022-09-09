@@ -1,7 +1,7 @@
 package com.example.springbackend.service;
 
-import com.example.springbackend.dto.Purchase;
-import com.example.springbackend.dto.PurchaseResponse;
+import com.example.springbackend.dto.CreatePurchaseDTO;
+import com.example.springbackend.dto.GetPurchaseResponseDTO;
 import com.example.springbackend.model.Customer;
 import com.example.springbackend.model.Order;
 import com.example.springbackend.model.OrderItem;
@@ -23,25 +23,25 @@ public class CheckoutService implements CheckoutInterface {
 
     @Override
     @Transactional
-    public PurchaseResponse placeOrder(Purchase purchase) {
+    public GetPurchaseResponseDTO placeOrder(CreatePurchaseDTO createPurchaseDTO) {
 
         // retrieve the order info from dto
-        Order order = purchase.getOrder();
+        Order order = createPurchaseDTO.getOrder();
 
         // generate tracking number
         String orderTrackingNumber = generateOrderTrackingNumber();
         order.setOrderTrackingNumber(orderTrackingNumber);
 
         // populate order with orderItems
-        Set<OrderItem> orderItems = purchase.getOrderItems();
+        Set<OrderItem> orderItems = createPurchaseDTO.getOrderItems();
         orderItems.forEach(item -> order.add(item));
 
         // populate order with billingAddress and shippingAddress
-        order.setBillingAddress(purchase.getBillingAddress());
-        order.setShippingAddress(purchase.getShippingAddress());
+        order.setBillingAddress(createPurchaseDTO.getBillingAddress());
+        order.setShippingAddress(createPurchaseDTO.getShippingAddress());
 
         // populate customer with order
-        Customer customer = purchase.getCustomer();
+        Customer customer = createPurchaseDTO.getCustomer();
 
         // check if this is an existing customer
         String theEmailAddress = customer.getEmail();
@@ -58,7 +58,7 @@ public class CheckoutService implements CheckoutInterface {
         customerRepository.save(customer);
 
         // return a response
-        return new PurchaseResponse(orderTrackingNumber);
+        return new GetPurchaseResponseDTO(orderTrackingNumber);
     }
 
     private String generateOrderTrackingNumber() {

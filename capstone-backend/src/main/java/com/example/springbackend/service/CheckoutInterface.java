@@ -1,9 +1,9 @@
 package com.example.springbackend.service;
 
-import com.example.springbackend.dto.Purchase;
-import com.example.springbackend.dto.PurchaseResponse;
+import com.example.springbackend.dto.CreatePurchaseDTO;
+import com.example.springbackend.dto.GetPurchaseResponseDTO;
 
 public interface CheckoutInterface {
 
-    PurchaseResponse placeOrder(Purchase purchase);
+    GetPurchaseResponseDTO placeOrder(CreatePurchaseDTO createPurchaseDTO);
 }
