@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="032a52cd-0325-43e2-8572-d4975536caec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/controller/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/dto/CreateCustomerDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/dto/GetCustomerResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/service/CustomerInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/service/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capstone-backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/capstone-backend/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/config/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/controller/CheckoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/controller/CheckoutController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/dto/Purchase.java" beforeDir="false" afterPath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/dto/CreatePurchaseDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/dto/PurchaseResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/dto/GetPurchaseResponseDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/repository/OrderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/service/CheckoutInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/service/CheckoutInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/service/CheckoutService.java" beforeDir="false" afterPath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/service/CheckoutService.java" afterDir="false" />
-    </list>
+    <list default="true" id="032a52cd-0325-43e2-8572-d4975536caec" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
