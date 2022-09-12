@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="032a52cd-0325-43e2-8572-d4975536caec" name="Changes" comment="" />
+    <list default="true" id="032a52cd-0325-43e2-8572-d4975536caec" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/capstone-backend/myFlywayConfig.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/service/UserInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capstone-backend/src/main/resources/Data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/SpringBackendApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/SpringBackendApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capstone-backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/capstone-backend/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -60,13 +76,38 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/seanj/Documents/GitHub/Flatiron_Bootcamp_Summer_2022/java-mod-7-assessment"
+    "last_opened_file_path": "C:/Users/seanj/Documents/GitHub/Flatiron_Bootcamp_Summer_2022/java-mod-11-capstone-backend/capstone-backend"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\seanj\Documents\GitHub\Flatiron_Bootcamp_Summer_2022\java-mod-11-capstone-backend\capstone-backend" />
+      <recent name="C:\Users\seanj\Documents\GitHub\Flatiron_Bootcamp_Summer_2022\java-mod-11-capstone-backend\capstone-backend\src\main\resources" />
+      <recent name="C:\Users\seanj\Documents\GitHub\Flatiron_Bootcamp_Summer_2022\java-mod-11-capstone-backend\capstone-backend\src\main\java\com\example\springbackend\service" />
+      <recent name="C:\Users\seanj\Documents\GitHub\Flatiron_Bootcamp_Summer_2022\java-mod-11-capstone-backend\capstone-backend\src\main\java\com\example\springbackend\repository" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.springbackend.controller" />
+      <recent name="com.example.springbackend.config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SpringBackendApplication">
+    <configuration name="SpringBackendApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.springbackend.SpringBackendApplication" />
+      <module name="spring-boot-backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springbackend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="com.example.springbackend.SpringBackendApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.springbackend.SpringBackendApplication" />
-      <module name="capstone-backend" />
+      <module name="java-mod-11-capstone-backend" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.springbackend.*" />
@@ -79,6 +120,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpringBackendApplication" />
         <item itemvalue="Application.com.example.springbackend.SpringBackendApplication" />
       </list>
     </recent_temporary>
