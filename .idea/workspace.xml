@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="032a52cd-0325-43e2-8572-d4975536caec" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/SpringBackendApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/capstone-backend/src/main/java/com/example/springbackend/SpringBackendApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capstone-backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/capstone-backend/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
