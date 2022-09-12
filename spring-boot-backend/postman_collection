@@ -1,0 +1,912 @@
+{
+	"info": {
+		"_postman_id": "f1a423b9-f57e-4417-b573-5704026a2b7d",
+		"name": "OSFAD",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22650715"
+	},
+	"item": [
+		{
+			"name": "Purchase items (working)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"customer\":{\r\n      \"firstName\":\"Sean\",\r\n      \"lastName\":\"Jung\",\r\n      \"email\":\"sean@test.com\"\r\n   },\r\n   \"shippingAddress\":{\r\n      \"street\":\"Random St\",\r\n      \"city\":\"Buford\",\r\n      \"state\":\"Georgia\",\r\n      \"country\":\"United States\",\r\n      \"zipCode\":\"30518\"\r\n   },\r\n   \"billingAddress\":{\r\n      \"street\":\"Random St\",\r\n      \"city\":\"Buford\",\r\n      \"state\":\"Georgia\",\r\n      \"country\":\"United States\",\r\n      \"zipCode\":\"30518\"\r\n   },\r\n   \"order\":{\r\n      \"totalPrice\":36.98,\r\n      \"totalQuantity\":2\r\n   },\r\n   \"orderItems\":[\r\n      {\r\n         \"imageUrl\":\"assets/images/products/ketogenic/ketogenic-1.jpg\",\r\n         \"quantity\":1,\r\n         \"unitPrice\":18.99,\r\n         \"productId\":1\r\n      },\r\n      {\r\n         \"imageUrl\":\"assets/images/products/ketogenic/ketogenic-2.jpg\",\r\n         \"quantity\":1,\r\n         \"unitPrice\":17.99,\r\n         \"productId\":2\r\n      }\r\n   ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/checkout/purchase",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"checkout",
+						"purchase"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post an order (working)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "// should return 401 since this route is protected\r\n\r\n{\r\n  \"billingAddress\": {\r\n    \"city\": \"string\",\r\n    \"country\": \"string\",\r\n    \"id\": 0,\r\n    \"state\": \"string\",\r\n    \"street\": \"string\",\r\n    \"zipCode\": \"string\"\r\n  },\r\n  \"customer\": {\r\n    \"email\": \"string\",\r\n    \"firstName\": \"string\",\r\n    \"id\": 0,\r\n    \"lastName\": \"string\",\r\n    \"orders\": [\r\n      null\r\n    ]\r\n  },\r\n  \"dateCreated\": \"2022-09-12T22:35:00.931Z\",\r\n  \"id\": 0,\r\n  \"lastUpdated\": \"2022-09-12T22:35:00.931Z\",\r\n  \"orderItems\": [\r\n    {\r\n      \"id\": 0,\r\n      \"imageUrl\": \"string\",\r\n      \"productId\": 0,\r\n      \"quantity\": 0,\r\n      \"unitPrice\": 0\r\n    }\r\n  ],\r\n  \"orderTrackingNumber\": \"string\",\r\n  \"shippingAddress\": {\r\n    \"city\": \"string\",\r\n    \"country\": \"string\",\r\n    \"id\": 0,\r\n    \"state\": \"string\",\r\n    \"street\": \"string\",\r\n    \"zipCode\": \"string\"\r\n  },\r\n  \"status\": \"string\",\r\n  \"totalPrice\": 0,\r\n  \"totalQuantity\": 0\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/orders",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update an order (working)",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "// should return 401 since this route is protected\r\n{\r\n  \"billingAddress\": {\r\n    \"city\": \"string\",\r\n    \"country\": \"string\",\r\n    \"id\": 0,\r\n    \"state\": \"string\",\r\n    \"street\": \"string\",\r\n    \"zipCode\": \"string\"\r\n  },\r\n  \"customer\": {\r\n    \"email\": \"string\",\r\n    \"firstName\": \"string\",\r\n    \"id\": 0,\r\n    \"lastName\": \"string\",\r\n    \"orders\": [\r\n      null\r\n    ]\r\n  },\r\n  \"dateCreated\": \"2022-09-12T22:35:24.389Z\",\r\n  \"id\": 0,\r\n  \"lastUpdated\": \"2022-09-12T22:35:24.389Z\",\r\n  \"orderItems\": [\r\n    {\r\n      \"id\": 0,\r\n      \"imageUrl\": \"string\",\r\n      \"productId\": 0,\r\n      \"quantity\": 0,\r\n      \"unitPrice\": 0\r\n    }\r\n  ],\r\n  \"orderTrackingNumber\": \"string\",\r\n  \"shippingAddress\": {\r\n    \"city\": \"string\",\r\n    \"country\": \"string\",\r\n    \"id\": 0,\r\n    \"state\": \"string\",\r\n    \"street\": \"string\",\r\n    \"zipCode\": \"string\"\r\n  },\r\n  \"status\": \"string\",\r\n  \"totalPrice\": 0,\r\n  \"totalQuantity\": 0\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/orders/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"orders",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all orders (working)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "// should get 401 unauthorized error",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/orders",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Orders by Id (working)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "// should see 401 Unauthorized status code since this endpoint is protected via JWT",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/orders/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"orders",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get orders by email (working)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "// this endpoint should be protected based on JWT authentication, returning 401 unauthorized status code",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/orders/search/findByCustomerEmail?email=john.doe@demo.com",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"orders",
+						"search",
+						"findByCustomerEmail"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "john.doe@demo.com"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all products (working)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/products",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all products by id (working)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/products/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"products",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all product categories (working)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/product-category",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"product-category"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all product categories by id (working)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/product-category/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"product-category",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all product by category id (working)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/products/search/findByCategoryId?id=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"products",
+						"search",
+						"findByCategoryId"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all product by category id (working)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/product-category/1/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"product-category",
+						"1",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all product by product id and category id (working)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/product-category/1/products/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"product-category",
+						"1",
+						"products",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all product by product name (working)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/products/search/findByNameContaining?name=Chicken",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"products",
+						"search",
+						"findByNameContaining"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Chicken"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all countries (working)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/countries",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"countries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all countries by id (working)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "// any id between 1-11 works",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/countries/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"countries",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all states (working)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/states",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"states"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all states by country (working)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "// any country id between 1-11 works",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/countries/1/states",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"countries",
+						"1",
+						"states"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all states by country code (working)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "// any country id between 1-11 works",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/states/search/findByCountryCode?code=US",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"states",
+						"search",
+						"findByCountryCode"
+					],
+					"query": [
+						{
+							"key": "code",
+							"value": "US"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create a customer (working)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstName\": \"NewFirstName\",\r\n    \"lastName\": \"NewLastName\",\r\n    \"email\": \"newemailaddress@test.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/customer",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"customer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all customers (working)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "// should return list of email address from customer",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/customer",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"customer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get a customer by email (working)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "// should return list of email address from customer",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/customer",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"customer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get a customer by email (working)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "// returns customer email address as long as customer exists in the database",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/customer/sean@test.com",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"customer",
+						"sean@test.com"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update customer by email (working)",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstName\": \"FirstName\",\r\n    \"lastName\": \"Surname\",\r\n    \"email\": \"updatedemail@demo.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/customer/newemailaddress@test.com",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"customer",
+						"newemailaddress@test.com"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update customer by email (working) Copy",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "// delete email address - should return 200 status code if email exists",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/customer/updatedemail@demo.com",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"customer",
+						"updatedemail@demo.com"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add user (working)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"string\",\r\n  \"emailVerified\": true,\r\n  \"familyName\": \"string\",\r\n  \"givenName\": \"string\",\r\n  \"id\": 0,\r\n  \"locale\": \"string\",\r\n  \"name\": \"string\",\r\n  \"preferredUsername\": \"string\",\r\n  \"roles\": [\r\n    {\r\n      \"id\": 2,\r\n      \"name\": \"string\"\r\n    }\r\n  ],\r\n  \"zoneInfo\": \"string\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/user/add",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"user",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all users (working)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "// returns all the users",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/user/getAll",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"user",
+						"getAll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update an user (working)",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"john.doe@demo.com\",\r\n  \"emailVerified\": true,\r\n  \"familyName\": \"Doe\",\r\n  \"givenName\": \"John\",\r\n  \"id\": 1,\r\n  \"locale\": \"United States\",\r\n  \"name\": \"John Doe\",\r\n  \"preferredUsername\": \"Johnny\",\r\n  \"roles\": [\r\n    {\r\n      \"id\": 1,\r\n      \"name\": \"Admin\"\r\n    }\r\n  ],\r\n  \"zoneInfo\": \"United States\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/user/update",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"user",
+						"update"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
