@@ -29,12 +29,11 @@ public class RestConfig implements RepositoryRestConfigurer {
         entityManager = theEntityManager;
     }
 
-
     @Override
     public void configureRepositoryRestConfiguration(RepositoryRestConfiguration config, CorsRegistry cors) {
 
         HttpMethod[] theUnsupportedActions = {HttpMethod.PUT, HttpMethod.POST,
-                                              HttpMethod.DELETE, HttpMethod.PATCH};
+                HttpMethod.DELETE, HttpMethod.PATCH};
 
         // disable HTTP methods for ProductCategory: PUT, POST and DELETE
         disableHttpMethods(Product.class, config, theUnsupportedActions);
@@ -75,12 +74,6 @@ public class RestConfig implements RepositoryRestConfigurer {
         config.exposeIdsFor(domainTypes);
     }
 }
-
-
-
-
-
-
 
 
 
