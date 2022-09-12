@@ -30,6 +30,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
         // disable CSRF since we are not using Cookies for session tracking
         http.csrf().disable();
+        http.headers().frameOptions().disable();
     }
-
 }
