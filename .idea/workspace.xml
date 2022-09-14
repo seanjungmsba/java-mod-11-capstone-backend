@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="032a52cd-0325-43e2-8572-d4975536caec" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/spring-boot-backend/src/test/java/com/example/springbackend/service/CheckoutServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-backend/src/test/java/com/example/springbackend/service/CustomerServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-backend/src/test/java/com/example/springbackend/service/UserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/model/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/model/OrderItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/repository/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-backend/src/test/java/com/example/springbackend/SpringBackendApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +25,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -62,7 +71,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/seanj/Documents/GitHub/Flatiron_Bootcamp_Summer_2022/java-mod-11-capstone-backend/capstone-backend"
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Users/seanj/Downloads/capstone-backend"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -71,6 +82,12 @@
       <recent name="C:\Users\seanj\Documents\GitHub\Flatiron_Bootcamp_Summer_2022\java-mod-11-capstone-backend\capstone-backend\src\main\resources" />
       <recent name="C:\Users\seanj\Documents\GitHub\Flatiron_Bootcamp_Summer_2022\java-mod-11-capstone-backend\capstone-backend\src\main\java\com\example\springbackend\service" />
       <recent name="C:\Users\seanj\Documents\GitHub\Flatiron_Bootcamp_Summer_2022\java-mod-11-capstone-backend\capstone-backend\src\main\java\com\example\springbackend\repository" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.springbackend.service" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.springbackend.controller" />
@@ -91,15 +108,63 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.example.springbackend.SpringBackendApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.springbackend.SpringBackendApplication" />
-      <module name="java-mod-11-capstone-backend" />
+    <configuration name="CheckoutServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-backend" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.springbackend.*" />
+          <option name="PATTERN" value="com.example.springbackend.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.example.springbackend.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springbackend.service.CheckoutServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckoutServiceTest.testFakeEmailReturnsCustomerWhoDoesNotEx1ist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springbackend.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.springbackend.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springbackend.service.CheckoutServiceTest" />
+      <option name="METHOD_NAME" value="testFakeEmailReturnsCustomerWhoDoesNotEx1ist" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckoutServiceTest.testPlaceOrder (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springbackend.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.springbackend.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springbackend.service.CheckoutServiceTest" />
+      <option name="METHOD_NAME" value="testPlaceOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.example.springbackend.service in spring-boot-backend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springbackend.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.springbackend.service" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,7 +172,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.SpringBackendApplication" />
-        <item itemvalue="Application.com.example.springbackend.SpringBackendApplication" />
+        <item itemvalue="JUnit.com.example.springbackend.service in spring-boot-backend" />
+        <item itemvalue="JUnit.CheckoutServiceTest" />
+        <item itemvalue="JUnit.CheckoutServiceTest.testFakeEmailReturnsCustomerWhoDoesNotEx1ist" />
+        <item itemvalue="JUnit.CheckoutServiceTest.testPlaceOrder (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -132,5 +200,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/java_mod_11_capstone_backend$com_example_springbackend_service_in_spring_boot_backend.ic" NAME="com.example.springbackend.service in spring-boot-backend Coverage Results" MODIFIED="1663197537816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.springbackend.service.*</FILTER>
+    </SUITE>
   </component>
 </project>

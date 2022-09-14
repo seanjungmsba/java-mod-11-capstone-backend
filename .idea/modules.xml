@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/java-mod-11-capstone-backend.iml" filepath="$PROJECT_DIR$/.idea/java-mod-11-capstone-backend.iml" />
-      <module fileurl="file://$PROJECT_DIR$/capstone-backend/spring-boot-backend.iml" filepath="$PROJECT_DIR$/capstone-backend/spring-boot-backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-backend/spring-boot-backend.iml" filepath="$PROJECT_DIR$/spring-boot-backend/spring-boot-backend.iml" />
     </modules>
   </component>
 </project>
