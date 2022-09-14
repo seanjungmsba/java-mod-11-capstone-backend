@@ -27,7 +27,7 @@ public class OrderItem {
     private int quantity;
 
     @Column(name = "product_id")
-    private Long productId;
+    private String productId; // changed from Long to String to debug
 
     @ManyToOne
     @JoinColumn(name = "order_id")
