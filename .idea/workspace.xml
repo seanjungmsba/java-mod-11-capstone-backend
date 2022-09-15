@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="032a52cd-0325-43e2-8572-d4975536caec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/controller/ErrorAdviceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/dto/ErrorDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/dto/ErrorsDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/exception/NotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/exception/ValidationException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/controller/CheckoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/controller/CheckoutController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/controller/UserController.java" afterDir="false" />
-    </list>
+    <list default="true" id="032a52cd-0325-43e2-8572-d4975536caec" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
