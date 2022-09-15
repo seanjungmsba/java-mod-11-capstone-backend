@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="032a52cd-0325-43e2-8572-d4975536caec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-boot-backend/src/test/java/com/example/springbackend/service/CheckoutServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-backend/src/test/java/com/example/springbackend/service/CustomerServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-backend/src/test/java/com/example/springbackend/service/UserServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/controller/ErrorAdviceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/dto/ErrorDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/dto/ErrorsDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/exception/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/exception/ValidationException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/model/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/model/OrderItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/repository/OrderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-backend/src/test/java/com/example/springbackend/SpringBackendApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/controller/CheckoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/controller/CheckoutController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/controller/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
