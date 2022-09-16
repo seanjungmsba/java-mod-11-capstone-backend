@@ -440,6 +440,3 @@ INSERT INTO `state` VALUES
 (283,'Chugoku',11),
 (284,'Shikoku',11),
 (285,'Kyushu-Okinawa',11);
-
-
-

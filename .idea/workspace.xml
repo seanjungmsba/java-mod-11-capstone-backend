@@ -5,7 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="032a52cd-0325-43e2-8572-d4975536caec" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/SpringBackendApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/SpringBackendApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/config/RestConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/config/RestConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/controller/CheckoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/controller/CheckoutController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/dto/CreateCustomerDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/dto/CreateCustomerDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/dto/CreatePurchaseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/dto/CreatePurchaseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/dto/GetCustomerResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/dto/GetCustomerResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/dto/GetPurchaseResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/dto/GetPurchaseResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/model/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/model/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/model/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/model/Country.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/model/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/model/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/model/OrderItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/model/ProductCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/model/ProductCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/model/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/model/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/repository/CountryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/repository/CountryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/repository/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/repository/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/repository/ProductCategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/repository/ProductCategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/repository/StateRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-backend/src/main/java/com/example/springbackend/repository/StateRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-backend/src/main/resources/Data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-backend/src/main/resources/Data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-backend/src/test/java/com/example/springbackend/service/CheckoutServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-backend/src/test/java/com/example/springbackend/service/CheckoutServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-backend/src/test/java/com/example/springbackend/service/CustomerServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-backend/src/test/java/com/example/springbackend/service/CustomerServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,16 +91,16 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/seanj/Documents/GitHub/Flatiron_Bootcamp_Summer_2022/java-mod-11-capstone-backend/spring-boot-backend/src/test/java/com/example/springbackend/service"
+    "last_opened_file_path": "C:/Users/seanj/Documents/GitHub/Flatiron_Bootcamp_Summer_2022/java-mod-11-capstone-backend/spring-boot-backend"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\seanj\Documents\GitHub\Flatiron_Bootcamp_Summer_2022\java-mod-11-capstone-backend\spring-boot-backend" />
       <recent name="C:\Users\seanj\Documents\GitHub\Flatiron_Bootcamp_Summer_2022\java-mod-11-capstone-backend\spring-boot-backend\src\test\java\com\example\springbackend\service" />
       <recent name="C:\Users\seanj\Documents\GitHub\Flatiron_Bootcamp_Summer_2022\java-mod-11-capstone-backend\capstone-backend" />
       <recent name="C:\Users\seanj\Documents\GitHub\Flatiron_Bootcamp_Summer_2022\java-mod-11-capstone-backend\capstone-backend\src\main\resources" />
       <recent name="C:\Users\seanj\Documents\GitHub\Flatiron_Bootcamp_Summer_2022\java-mod-11-capstone-backend\capstone-backend\src\main\java\com\example\springbackend\service" />
-      <recent name="C:\Users\seanj\Documents\GitHub\Flatiron_Bootcamp_Summer_2022\java-mod-11-capstone-backend\capstone-backend\src\main\java\com\example\springbackend\repository" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />

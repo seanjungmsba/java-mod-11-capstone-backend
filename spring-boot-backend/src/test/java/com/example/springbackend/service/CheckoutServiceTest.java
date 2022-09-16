@@ -242,4 +242,3 @@ class CheckoutServiceTest {
         assertSame(customer, order5.getCustomer());
     }
 }
-

@@ -74,6 +74,3 @@ public class RestConfig implements RepositoryRestConfigurer {
         config.exposeIdsFor(domainTypes);
     }
 }
-
-
-
