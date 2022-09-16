@@ -1,18 +1,18 @@
 # Capstone Project - Spring Boot Backend
  
-### 1. Accessing H2 Console and Swagger UI 
+## Accessing H2 Console and Swagger UI 
 *(Please make sure that the application is running before accessing the following links)*
 - Access [H2 Console](http://localhost:8080/h2-console)
 - Access [Swagger UI](http://localhost:8080/swagger-ui/index.html#/)
 
-##### Login Credential for H2 Console
+#### Login Credential for H2 Console
 - **JDBC URL:** jdbc:h2:mem:ecommercedb
 
 - **User Name:** sa
 
 - **Password:** *(leave blank)*
 
-### 2. Design & Build
+## 1. Design & Build
 **Are there 4 or more models?** 
 
 **&rarr;** Yes, there is a total of 10 models.
@@ -25,7 +25,7 @@
 
 **&rarr;** many-to-many relationship is used in entity such as `User`.
 
-### 3. Routes & Optimization
+## 2. Routes & Optimization
 
 **Are RestFUL route names used?**
 
@@ -41,7 +41,7 @@
 **&rarr;** Yes, there are more than 20 different endpoints based on the Postman collection.
 
 
-### 4. Edge Case & Error Handling
+## 3. Edge Case & Error Handling
 
 **Can user cause 500 request?**
 
