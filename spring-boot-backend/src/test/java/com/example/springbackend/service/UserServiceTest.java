@@ -119,11 +119,6 @@ class UserServiceTest {
         assertEquals(1L, ((List<Role>) roles).get(0).getId().longValue());
     }
 
-
-    /**
-     * Method under test: {@link UserService#add(User)}
-     */
-
     /**
      * Method under test: {@link UserService#getById(Long)}
      */
@@ -147,5 +142,5 @@ class UserServiceTest {
         assertTrue(actualById.isPresent());
         verify(userRepository).findById(any());
     }
-}
 
+}
