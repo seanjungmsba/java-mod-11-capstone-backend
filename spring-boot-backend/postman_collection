@@ -7,7 +7,7 @@
 	},
 	"item": [
 		{
-			"name": "Purchase items (working)",
+			"name": "Purchase items",
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -36,7 +36,7 @@
 			"response": []
 		},
 		{
-			"name": "Post an order (working)",
+			"name": "Post an order",
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -64,7 +64,7 @@
 			"response": []
 		},
 		{
-			"name": "Update an order (working)",
+			"name": "Update an order",
 			"request": {
 				"method": "PUT",
 				"header": [],
@@ -93,7 +93,7 @@
 			"response": []
 		},
 		{
-			"name": "Get all orders (working)",
+			"name": "Get all orders",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -124,7 +124,7 @@
 			"response": []
 		},
 		{
-			"name": "Get Orders by Id (working)",
+			"name": "Get Orders by Id",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -156,7 +156,7 @@
 			"response": []
 		},
 		{
-			"name": "Get orders by email (working)",
+			"name": "Get orders by email",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -195,7 +195,7 @@
 			"response": []
 		},
 		{
-			"name": "Get all products (working)",
+			"name": "Get all products",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -226,7 +226,7 @@
 			"response": []
 		},
 		{
-			"name": "Get all products by id (working)",
+			"name": "Get all products by id",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -258,7 +258,7 @@
 			"response": []
 		},
 		{
-			"name": "Get all product categories (working)",
+			"name": "Get all product categories",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -289,7 +289,7 @@
 			"response": []
 		},
 		{
-			"name": "Get all product categories by id (working)",
+			"name": "Get all product categories by id",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -321,7 +321,7 @@
 			"response": []
 		},
 		{
-			"name": "Get all product by category id (working)",
+			"name": "Get all product by category id",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -361,7 +361,7 @@
 			"response": []
 		},
 		{
-			"name": "Get all product by category id (working)",
+			"name": "Get all product by category id",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -395,7 +395,7 @@
 			"response": []
 		},
 		{
-			"name": "Get all product by product id and category id (working)",
+			"name": "Get all product by product id and category id",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -430,7 +430,7 @@
 			"response": []
 		},
 		{
-			"name": "Get all product by product name (working)",
+			"name": "Get all product by product name",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -470,7 +470,7 @@
 			"response": []
 		},
 		{
-			"name": "Get all countries (working)",
+			"name": "Get all countries",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -501,7 +501,7 @@
 			"response": []
 		},
 		{
-			"name": "Get all countries by id (working)",
+			"name": "Get all countries by id",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -534,7 +534,7 @@
 			"response": []
 		},
 		{
-			"name": "Get all states (working)",
+			"name": "Get all states",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -565,7 +565,7 @@
 			"response": []
 		},
 		{
-			"name": "Get all states by country (working)",
+			"name": "Get all states by country",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -599,7 +599,7 @@
 			"response": []
 		},
 		{
-			"name": "Get all states by country code (working)",
+			"name": "Get all states by country code",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -639,7 +639,7 @@
 			"response": []
 		},
 		{
-			"name": "Create a customer (working)",
+			"name": "Create a customer",
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -667,7 +667,7 @@
 			"response": []
 		},
 		{
-			"name": "Get all customers (working)",
+			"name": "Get all customers",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -698,7 +698,7 @@
 			"response": []
 		},
 		{
-			"name": "Get a customer by email (working)",
+			"name": "Get a customer by email",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -707,7 +707,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "// should return list of email address from customer",
+					"raw": "// should return a customer's email address",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -715,21 +715,22 @@
 					}
 				},
 				"url": {
-					"raw": "localhost:8080/api/customer",
+					"raw": "localhost:8080/api/customer/newemailaddress@test.com",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
 						"api",
-						"customer"
+						"customer",
+						"newemailaddress@test.com"
 					]
 				}
 			},
 			"response": []
 		},
 		{
-			"name": "Get a customer by email (working)",
+			"name": "Get a customer by email",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -761,7 +762,7 @@
 			"response": []
 		},
 		{
-			"name": "Update customer by email (working)",
+			"name": "Update customer by email",
 			"request": {
 				"method": "PUT",
 				"header": [],
@@ -790,7 +791,7 @@
 			"response": []
 		},
 		{
-			"name": "Update customer by email (working) Copy",
+			"name": "Delete customer by email",
 			"request": {
 				"method": "DELETE",
 				"header": [],
@@ -819,7 +820,7 @@
 			"response": []
 		},
 		{
-			"name": "Add user (working)",
+			"name": "Add an user",
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -848,7 +849,7 @@
 			"response": []
 		},
 		{
-			"name": "Get all users (working)",
+			"name": "Get all users",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -880,7 +881,7 @@
 			"response": []
 		},
 		{
-			"name": "Update an user (working)",
+			"name": "Update an user",
 			"request": {
 				"method": "PUT",
 				"header": [],
